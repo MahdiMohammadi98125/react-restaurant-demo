@@ -12,7 +12,7 @@ const Resturant = ({ resturant }) => {
                 <img
                   src={res.attributes.coverPhoto.data.attributes.url}
                   key={res.id}
-                  className="w-full"
+                  className="w-full h-64"
                 />
               </div>
               <div className="flex flex-col gap-2 p-4">
